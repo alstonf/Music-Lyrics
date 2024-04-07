@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+:root {
     --white: #fff;
     --black: #1c2b2d;
     --blue: #31326f;
@@ -6,15 +10,18 @@
     --color-grey: #eee;
     --color-dark-grey: #222831;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     font-size: 10px;
     margin: 0 auto;
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
     background: url(./images/music.jpg) no-repeat center;
@@ -23,6 +30,7 @@ body {
     height: 100vh;
     position: relative;
 }
+
 body::after {
     content: "";
     position: fixed;
@@ -36,6 +44,7 @@ body::after {
     transform: translateX(-50%);
     
 }
+
 /* UTILITY */
 .p-small {
     padding-bottom: 5px;
@@ -49,18 +58,22 @@ body::after {
 .m-y {
     margin: 10px 0;
 }
+
 p {
     font-size: 1.6rem;
     line-height: 1.5;
 }
+
 img {
     width: 100%;
 }
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
 header .container{
     padding: 4rem 0;
     text-align: center;
@@ -68,11 +81,13 @@ header .container{
     border-radius: 0 0 5rem 5rem;
     margin-bottom: 2rem;
 }
+
 header h1 {
     font-size: 3rem;
     color: #fff;
     padding-bottom: 1rem;
 }
+
 form input,
 form button {
     outline: none;
@@ -87,6 +102,7 @@ form input {
     margin-right: 3px;
     border-bottom: 3px solid var(--color-primary);
 }
+
 form button {
     background-color: var(--color-primary);
     color: #fff;
@@ -96,9 +112,11 @@ form button {
     cursor: pointer;
     transition: all .3s;
 }
+
 form button:hover {
     border: 1px solid #fff;
 }
+
 section .container {
     display: block;
     margin: 0 auto;
@@ -106,12 +124,14 @@ section .container {
     color: #fff;
     padding: 3rem 0;
 }
+
 .songs {
     width: 70%;
     list-style: none;
     margin:0 auto;
     padding: 2rem 0;
 }
+
 .songs li {
     font-size: 1.4rem;
     text-align: center;
@@ -121,6 +141,7 @@ section .container {
     padding: 5px 0;
     border-bottom: 1px solid #eee;
 }
+
 .songs li span{
     font-size: 1.4rem;
     background-color: var(--color-primary);
@@ -130,3 +151,4 @@ section .container {
     border-radius: 5px;
     cursor: pointer;
 }
+
