@@ -2,12 +2,12 @@
 
 
 :root {
-    --white: #fff;
+    --white: #000000;
     --black: #1c2b2d;
     --blue: #31326f;
     --color-primary: #ffffff;
     --color-sec: #d4ff00;
-    --color-grey: #eee;
+    --color-grey: #000000;
     --color-dark-grey: #222831;
 }
 
@@ -38,7 +38,7 @@ body::after {
     left: 50%; 
     height: 100%;
     width: 900px;
-    background: rgba(0,0,0,.6);
+    background: rgba(0, 0, 0, 0.6);
     background-attachment: fixed;
     z-index: -1;
     transform: translateX(-50%);
@@ -84,7 +84,7 @@ header .container{
 
 header h1 {
     font-size: 3rem;
-    color: #fff;
+    color: #000000;
     padding-bottom: 1rem;
 }
 
@@ -105,7 +105,7 @@ form input {
 
 form button {
     background-color: var(--color-primary);
-    color: #fff;
+    color: #000000;
     border: 1px solid transparent;
     border-radius: 3px;
     font-weight: 700;
@@ -114,7 +114,7 @@ form button {
 }
 
 form button:hover {
-    border: 1px solid #fff;
+    border: 1px solid #000000;
 }
 
 section .container {
